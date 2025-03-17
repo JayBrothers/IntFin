@@ -19,7 +19,6 @@ Assignment_data <- Assignment_data %>% rename("REER" = "PX.REX.REER")
 
 
 Assignment_data <- Assignment_data[,c(3,4,7,8,9,10)]
-colSums(is.na(Assignment_data))  # Count missing values per column
 
 
 # Regressions
